@@ -22,7 +22,7 @@ First run
 
 This executes Bernoulli embeddings without dynamics. The scripts uses the current timestamp to create a folder where the results are saved ([path/to/results/]). We will use these results to initialize the dynamic embeddings:
 
-   ```python main.py --fpath [path/to/data] --init [path/to/result]/alpha_constant```
+   ```python main.py --dynamic True --fpath [path/to/data] --init [path/to/result]/alpha_constant```
 
 Make sure to use the same `--K` for both runs.
 
